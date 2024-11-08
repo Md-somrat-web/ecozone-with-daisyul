@@ -12,6 +12,13 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <link rel="stylesheet" href="style.css" />
@@ -92,7 +99,7 @@
       </div>
     </div>
     <!-- navbar end -->
-    <!-- banner satrt -->
+    <!-- banner start -->
     <div class="bg">
       <div class="grid grid-cols-2 gap-10 items-center">
         <div class="pl-10 space-y-6">
@@ -202,7 +209,7 @@
       </div>
     </div>
     <!-- card end -->
-    <div class="container py-10 my-10 mx-auto relative top-20">
+    <div class="Environmental py-10 my-10 mx-auto relative top-20">
       <div class="sarvice">
         <div class="text-center pt-9 space-y-4">
           <h1 class="text-2xl font-semibold text-[#ffff]">Service</h1>
@@ -216,10 +223,10 @@
         </div>
       </div>
     </div>
-    <!-- sarvice card -->
-    <div class="container grid grid-cols-3 gap-7 mx-8 relative bottom-40">
+    <!-- service card -->
+    <div class="containr grid grid-cols-3 gap-7 mx-8 relative bottom-40">
       <div class="bg-[#ffffff] inline-block px-12 py-20 shadow-2xl space-y-6">
-        <img src="imges/service_icon_1.svg" alt="" />
+        <img class="mx-auto" src="imges/service_icon_1.svg" alt="" />
         <h3 class="text-3xl font-semibold">Eco-Friendly Product</h3>
         <p class="text-[#555555 text-2xl]">
           Share reviews and recommendations for eco- friendly products, from
@@ -232,7 +239,7 @@
         </p>
       </div>
       <div class="bg-[#ffffff] inline-block px-12 py-28 shadow-2xl space-y-6">
-        <img src="imges/service_icon_2.svg" alt="" />
+        <img class="mx-auto" src="imges/service_icon_2.svg" alt="" />
         <h3 class="text-3xl font-semibold">Wildlife Saving</h3>
         <p class="text-[#555555 text-2xl]">
           Share reviews and recommendations for eco- friendly products, from
@@ -245,7 +252,7 @@
         </p>
       </div>
       <div class="bg-[#ffffff] inline-block px-12 py-28 shadow-2xl space-y-6">
-        <img src="imges/service_icon_3.svg" alt="" />
+        <img class="mx-auto" src="imges/service_icon_3.svg" alt="" />
         <h3 class="text-3xl font-semibold">Advocacy Campaigns</h3>
         <p class="text-[#555555 text-2xl]">
           Share reviews and recommendations for eco- friendly products, from
@@ -258,9 +265,10 @@
         </p>
       </div>
     </div>
-    <!-- sarvice card end -->
-    <div class="container text-center items-center mx-20">
-      <div class="grid grid-cols-4">
+    <!-- service card end -->
+    <!-- counter -->
+    <div class="text-center items-center mx-1">
+      <div class="grid grid-cols-4 justify-between">
         <div class="flex text-center items-center gap-6">
           <h2 class="text-6xl font-bold">5K</h2>
           <p>
@@ -268,7 +276,7 @@
             Volunteers
           </p>
         </div>
-        <div class="flex text-center items-center gap-6">
+        <div class="flex text-center items-center gap-6 bg-">
           <h2 class="text-6xl font-bold">110M</h2>
           <p>
             World Fund <br />
@@ -318,6 +326,7 @@
           </div>
         </div>
         <div class="collapse collapse-arrow bg-neutral-50 mt-5">
+          <input type="text" />
           <input type="radio" name="my-accordion-2" />
           <div class="collapse-title text-xl font-medium">
             How can I support your website's mission?
@@ -357,6 +366,280 @@
         </div>
       </div>
       <img class="h-full" src="imges/faq_bg.jpg" alt="" />
+    </div>
+    <!-- Accordion FAQ end -->
+    <!-- donation title -->
+    <div class="container my-24">
+      <div class="text-center">
+        <h2 class="font-semibold text-[#4baf47] text-2xl">Donation</h2>
+        <p class="text-5xl text-[#191919] font-bold mt-5 leading-tight">
+          Supporting Our Environmental <br />
+          Fundraising Initiatives
+        </p>
+      </div>
+    </div>
+    <!-- donation title -->
+    <div class="container my-24">
+      <div class="grid grid-cols-2 gap-9 mx-16 bg-[#ffffff] shadow-2xl">
+        <div>
+          <img src="imges/donation_img_1.jpg" alt="" />
+        </div>
+
+        <div>
+          <h2 class="text-4xl text-[#191919] font-bold">
+            Reforestation and Tree Planting Campaign 2024
+          </h2>
+          <p class="text-[#555555] mt-5">
+            Deforestation poses a significant threat to our environment,
+            contributing to climate change and the loss of crucial habitats for
+            countless species. Our campaign focuses on reversing this trend by
+            planting trees...
+          </p>
+
+          <progress
+            class="progress w-full bg-[#4baf47] top-6"
+            value="0"
+            max="100 "
+          ></progress>
+
+          <div class="mt-8 flex items-center justify-between">
+            <p class="text-2xl font-bold">Goal:$4000</p>
+            <p class="text-2xl font-bold">Raised:$2800</p>
+          </div>
+
+          <div>
+            <button
+              class="btn px-56 py-5 mt-8 bg-[#4BAf47] text-[#fff] rounded-none border-none"
+            >
+              Donate
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- donation end -->
+
+    <!-- testimonial start -->
+    <div class="container mt-24 mx-auto">
+      <div class="mb-28 text-center">
+        <p class="text-[#4baf47] text-2xl font-semibold">Testimonial</p>
+        <h2 class="text-5xl mt-4 font-bold">What People Think About Us</h2>
+      </div>
+      <div class="px-16 grid grid-cols-3 gap-7 relative z-10 -mb-56">
+        <!-- 1st section -->
+        <div class="bg-white inline-block px-12 py-16 shadow-2xl space-y-6">
+          <div class="flex">
+            <img class="w-16" src="imges/avatar_img_1.png" alt="" />
+            <div class="ml-4">
+              <h3 class="text-[21px] font-semibold">Angrwe Bolar</h3>
+              <span class="text-[#555555] text-[18px]">volunteer</span>
+            </div>
+          </div>
+
+          <p class="text-[#555555] text-[18px]">
+            The resources have been a tremendous help in making my lifestyle
+            more eco-friendly. Plus, the campaigns are a fantastic way to get
+            involved. Keep up the excellent work!
+          </p>
+          <!-- ratting -->
+          <div class="rating">
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+              checked="checked"
+            />
+          </div>
+        </div>
+        <!-- 2nd section -->
+        <div class="bg-[#ffffff] inline-block px-12 py-16 shadow-2xl space-y-6">
+          <div class="flex gap-3">
+            <img class="w-16" src="imges/avatar_img_1.png" alt="" />
+            <div class="ml-4">
+              <h3 class="text-[21px] font-semibold">Angrwe Bolar</h3>
+              <span class="text-[#555555] text-[18px]">volunteer</span>
+            </div>
+          </div>
+
+          <p class="text-[#555555] text-[18px]">
+            The resources have been a tremendous help in making my lifestyle
+            more eco-friendly. Plus, the campaigns are a fantastic way to get
+            involved. Keep up the excellent work!
+          </p>
+          <!-- ratting -->
+          <div class="rating">
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+              checked="checked"
+            />
+          </div>
+        </div>
+        <div class="bg-[#ffffff] inline-block px-12 py-16 shadow-2xl space-y-6">
+          <div class="flex gap-3">
+            <img class="w-16" src="imges/avatar_img_1.png" alt="" />
+            <div class="ml-4">
+              <h3 class="text-[21px] font-semibold">Angrwe Bolar</h3>
+              <span class="text-[#555555] text-[18px]">volunteer</span>
+            </div>
+          </div>
+
+          <p class="text-[#555555] text-[18px]">
+            The resources have been a tremendous help in making my lifestyle
+            more eco-friendly. Plus, the campaigns are a fantastic way to get
+            involved. Keep up the excellent work!
+          </p>
+          <!--  -->
+          <div class="rating">
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+            />
+            <input
+              type="radio"
+              name="rating-4"
+              class="mask mask-star-2 bg-green-500"
+              checked="checked"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="absolute z-0">
+        <div class="testimonial bg-[#4baf47]">
+          <img class="h-96" src="imges/testimonial_bg.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- our team start -->
+    <div class="container py-10 my-10 mx-auto px-16 mt-96">
+      <div class="text-center w-3/4 mx-auto mb-20">
+        <p class="text-[#4baf47] text-2xl font-semibold">Testimonial</p>
+        <h2 class="text-5xl font-bold">
+          Meet Our Dedicated Environmental Advocates and Experts
+        </h2>
+      </div>
+      <div class="grid grid-cols-2 gap-5">
+        <div class="flex">
+          <img class="w-72" src="imges/team-1.jpg" alt="" />
+          <div class="pl-5">
+            <p class="text-[#4baf47] font-semibold">CEO FOUNDER</p>
+            <h2 class="text-3xl font-bold pt-3 pb-5">Jhon Beboral</h2>
+            <hr />
+            <p class="pt-5 text-xl">
+              Team component built to improve trust and culture within your.
+            </p>
+          </div>
+        </div>
+        <!-- 2nd  -->
+        <div class="flex">
+          <img class="w-72" src="imges/team_member_2.jpg" alt="" />
+          <div class="pl-5">
+            <p class="text-[#4baf47] font-semibold">VOLUNTEER</p>
+            <h2 class="text-3xl font-bold pt-3 pb-5">Peter Dobar</h2>
+            <hr />
+            <p class="pt-5 text-xl">
+              Team component built to improve trust and culture within your.
+            </p>
+          </div>
+        </div>
+        <div class="flex">
+          <img class="w-72" src="imges/team__3.jpg" alt="" />
+          <div class="pl-5">
+            <p class="text-[#4baf47] font-semibold">VOLUNTEER</p>
+            <h2 class="text-3xl font-bold pt-3 pb-5">Peter Dobar</h2>
+            <hr />
+            <p class="pt-5 text-xl">
+              Team component built to improve trust and culture within your.
+            </p>
+          </div>
+        </div>
+        <div class="flex">
+          <img class="w-72" src="imges/team__4.jpg" alt="" />
+          <div class="pl-5">
+            <p class="text-[#4baf47] font-semibold">VOLUNTEER</p>
+            <h2 class="text-3xl font-bold pt-3 pb-5">Peter Dobar</h2>
+            <hr />
+            <p class="pt-5 text-xl">
+              Team component built to improve trust and culture within your.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- our team end -->
+    <!-- Environmental start -->
+    <div class="container py-10 my-10 mx-auto">
+      <div class="environmental">
+        <div class="text-center">
+          <h2 class="text-5xl font-semibold text-white">
+            Enter the Realm of Environmental Preservation <br />
+            Together, We Make a Difference
+          </h2>
+          <button
+            class="btn px-10 bg-[#4baf47] text-white text-xl border-none rounded-none mt-11"
+          >
+            Become A volunteer
+          </button>
+        </div>
+      </div>
     </div>
   </body>
 </html>
